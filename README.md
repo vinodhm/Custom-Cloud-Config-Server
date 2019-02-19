@@ -22,5 +22,5 @@ Health Check:
 - http://localhost:8888/actuator/health
 
 Maven Command to run: 
-- mvn spring-boot:run -Drun.jvmArguments="-Xmx1024m"  
+- mvn spring-boot:run -Dcom.vin.config.encryption.key={yourKey}    
 
