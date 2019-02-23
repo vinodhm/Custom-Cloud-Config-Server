@@ -16,7 +16,8 @@ import javax.persistence.Id;
 @Entity(name = "PROPERTIES")
 public class AppProperty {
 
-    @Column @Id
+    @Column
+    @Id
     private int id;
 
     @Column
