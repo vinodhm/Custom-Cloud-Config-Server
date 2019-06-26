@@ -18,7 +18,7 @@ public class AppProperty {
 
     @Column
     @Id
-    private int id;
+    private Integer id;
 
     @Column
     private String application;
